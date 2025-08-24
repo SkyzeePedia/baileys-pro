@@ -1,6 +1,6 @@
 {
   "name": "@skyzeepedia/baileys-pro",
-  "version": "8.7.2",
+  "version": "1.0.0",
   "description": "WhatsApp API",
   "keywords": [
     "whatsapp",
@@ -37,8 +37,6 @@
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
-    "prepack": "tsc",
-    "prepare": "tsc",
     "release": "release-it",
     "test": "jest"
   },
@@ -61,7 +59,6 @@
     "audio-decode": "^2.1.3",
     "node-cache": "^5.1.2",
     "uuid": "^10.0.0",
-    "protobufjs": "^6.11.3",
     "mysql2": "latest",
     "ws": "^8.13.0"
   },
